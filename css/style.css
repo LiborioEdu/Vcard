@@ -1,0 +1,66 @@
+
+body {
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210204/pngtree-abstract-background-of-information-technology-image_555014.jpg'); /* Caminho da imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição */
+}
+
+.vcard-body {
+    max-width: 468px; /* Tamanho máximo do card para 468 pixels */
+    width: 100%; /* Tamanho do Card ocupar 100% do espaço da tela respeitando o máximo a cima */
+    margin: 80px auto; /* Centralizar Card horizontalmente e colocando margens no top e bottom de 80px;*/
+    background: #f4f4f4; /* Inserir cor de fundo para o Card*/
+    padding: 45px; /* Inserir espaçamento interno no Card de 45px */
+    border-top: 6px solid #0831ae; /* Inserir borda verde no topo do card de 6 pixels */
+}
+
+.vcard-profile-img {
+    width: 200px; /* Tamanho definido a 200 pixels */
+    margin: 0 auto; /* Centralizar conteúdo horizontalmente */
+}
+
+.profile-img {
+    width: 100%; /* Tamanho da imagem ocupar 100% do espaço */
+    border-radius: 40%; /* Arredondar borda da imagem 100% torando-a arredondada */
+}
+  
+.profile-title {
+    margin-bottom: 0; /* Remover margem defult do elemento h1 */
+    text-align: center; /* Alinhar o texto ao centro */
+    font-weight: bold; /* Inserir fonte em negrito */
+    font-size: 30px; /* Alterar tamanho da fonte para 30 pixels */
+}
+
+.profile-title-color {
+    color: #0831ae; /* Alterar cor de fonte para #08aeac */
+}
+
+.profile-subtitle {
+    text-align: center; /* Alinhar o texto ao centro */
+    font-size: 20px; /* Alterar tamanho da fonte para 20 pixels */
+    font-weight: bold; /* Inserir fonte em negrito */
+}
+
+.vcard-profile-description-text {
+    text-align: center; /* Alinhar o texto ao centro */
+}
+
+.vcard-profile-description-contact {
+    text-align: center; /* Alinhar o texto ao centro */
+    border-radius: 5px; /* Inserir borda arredondada de 5 pixels */
+    padding: 5px 10px; /* Inserir espaçamento interno de 5 pixels verticalmente e 10 pixels horizontalmente */
+    background: #0831ae; /* Alterar cor do fundo para #08aeac */
+    color:#fff; /* Alterar cor de fonte para #fff */
+}
+
+.vcard-footer {
+    margin-top: 20px; /* Inserir margem no topo de 20 pixels */
+    text-align: center; /* Alinhar o texto ao centro */
+}
+
+.footer-icon {
+    color:#333; /* Alterar cor de fonte para #333 */
+    font-size: 16px; /* Alterar tamanho da fonte para 16 pixels */
+    margin-right: 10px; /* Inserir margem na direita de 10 pixels entre os ícones */
+}
